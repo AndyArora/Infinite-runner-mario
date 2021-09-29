@@ -41,7 +41,7 @@ function setup() {
   mario.addAnimation("running", mario_running);
 
   mario.addAnimation("collided", mario_collided);
-  mario.scale = 0.55;
+  mario.scale = 0.56;
   
   ground = createSprite(200,180,700,20);
   ground.addImage("ground",groundImage);
